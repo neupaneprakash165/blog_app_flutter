@@ -76,7 +76,7 @@ class _HomeDetailsState extends State<HomeDetails> {
                 icon: const Icon(Icons.edit),
               ),
             ),
-            
+            Image.asset('assets/images/noimage.png'),
             IconButton(
               onPressed: () {
                 String shareText = postMap['title'];
